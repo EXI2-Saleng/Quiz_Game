@@ -38,15 +38,19 @@ public class WordListActivity extends AppCompatActivity {
 class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
    private WordItem[] items = {
-         new WordItem(R.drawable.cat, "CAT","แมว"),
-         new WordItem(R.drawable.dog, "DOG","สุนัข"),
-         new WordItem(R.drawable.dolphin, "DOLPHIN","โลมา"),
-         new WordItem(R.drawable.tiger, "TIGER","เสือ"),
-         new WordItem(R.drawable.lion, "LION","สิงโต"),
-         new WordItem(R.drawable.penguin, "PENGUIN","เพนกวิน"),
-         new WordItem(R.drawable.rabbit, "RABBIT",""),
-         new WordItem(R.drawable.pig, "PIG",""),
-         new WordItem(R.drawable.koala, "KOALA","")
+         new WordItem(R.drawable.purple, "PURPLE","สีม่วง"),
+         new WordItem(R.drawable.cyan, "CYAN","สีเทา"),
+         new WordItem(R.drawable.red, "RED","สีแดง"),
+         new WordItem(R.drawable.black, "BLACK","สีดำ"),
+         new WordItem(R.drawable.yellow, "YELLOW","สีเหลือง"),
+         new WordItem(R.drawable.lime, "LIME","สีเขียวมะนาว"),
+         new WordItem(R.drawable.green, "GREEN","สีเขียว"),
+         new WordItem(R.drawable.orange, "ORANGE","สีส้ม"),
+         new WordItem(R.drawable.white, "WHITE","สีขาว"),
+         new WordItem(R.drawable.brown, "BROWN","สีน้ำตาล"),
+         new WordItem(R.drawable.bule, "BULE","สีน้ำเงิน"),
+         new WordItem(R.drawable.pink, "PINK","สีชมพู")
+
    };
 
 
